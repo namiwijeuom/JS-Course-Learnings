@@ -58,8 +58,6 @@ const age2 = calcAge2(1991);
 
 console.log(age1, age2);
 
-*/
-
 // Arrow Function
 // 1. Arrow function is another way to write a function
 // 2. It is a special form of function expression
@@ -78,3 +76,30 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 }
 
 console.log(yearsUntilRetirement(2000, 'Namina'));
+
+*/
+
+//Arrays
+// 1. Arrays are a data structure that can hold multiple values
+// 2. Arrays are a collection of variables that can have more than one value
+// 3. Arrays are a collection of elements
+// 4. Arrays are a collection of items
+
+const friends = ['Michael', 'Steven', 'Peter'];
+console.log(friends);
+console.log(friends[0]);
+console.log(friends[2]);
+console.log(`The length of the array is ${friends.length}`);
+
+friends[2] = 'Jay';
+console.log(friends);
+
+const years = new Array(1991, 1984, 2008, 2020);
+console.log(years);
+
+const firstName = 'Namina';
+const lastName = 'Wijetunga';
+const age = 2024 - 2000;
+const job = 'student';
+const namina = [firstName, lastName, age, job, friends];
+console.log(namina);
